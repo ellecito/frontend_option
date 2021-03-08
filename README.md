@@ -1,24 +1,23 @@
-# frontend
+# Frontend Option
 
-## Project setup
-```
+Backend hecho en NodeJS
+
+## Instalación
+
+Instalar las dependencias usando npm
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+## Iniciar App
+
+Para iniciar app debes ejecutar:
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Testing
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// TO DO
