@@ -104,6 +104,8 @@
 
 <script>
 const axios = require("axios");
+const prod_or_local = 1;
+const server_url = prod_or_local ? 'https://backend-option.herokuapp.com/': 'http://localhost:3000/';
 
 export default {
   name: "App",
@@ -132,7 +134,7 @@ export default {
     },
     search() {
       axios
-        .get("http://localhost:3000/list/" + this.v)
+        .get(server_url + "list/" + this.v)
         .then((response) => {
           this.items = response.data;
           console.log(response.data);
