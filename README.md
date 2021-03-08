@@ -1,6 +1,6 @@
 # Frontend Option
 
-Backend hecho en NodeJS
+Frontend hecho en VueJS 2
 
 ## Instalación
 
